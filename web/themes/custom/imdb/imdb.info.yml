@@ -1,0 +1,14 @@
+name: IMDB
+type: theme
+description: Theme for IMDB like website
+core_version_requirement: ^8 || ^9
+base theme: classy
+
+libraries:
+  - imdb/global-css
+
+
+# regions:
+#   header: 'Header'
+#   content: 'Content'
+#   footer: 'Footer'

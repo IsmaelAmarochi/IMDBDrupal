@@ -30,10 +30,13 @@
   {% import _self as menus %}
   {% if items %}
     {% if menu_level == 0 %}
+
       <ul{{ attributes.addClass('menu') }}>
     {% else %}
-      <ul class="menu">
+      <ul class="menu container">
     {% endif %}
+
+
     {% for item in items %}
       {%
         set classes = [
@@ -43,6 +46,9 @@
           item.in_active_trail ? 'menu-item--active-trail',
         ]
       %}
+
+ 
+
       <li{{ item.attributes.addClass(classes) }}>
         {{ link(item.title, item.url) }}
         {% if item.below %}
@@ -53,3 +59,21 @@
     </ul>
   {% endif %}
 {% endmacro %}
+
+<style>
+  .menu-item {
+    list-style-type: none;
+    padding-bottom: 10px;
+    float: left;
+  }
+
+
+
+  a {
+    display:block;
+    text-decoration: none;
+    padding: 0 20px;
+    margin: 0 20px;
+    
+  }
+</style>

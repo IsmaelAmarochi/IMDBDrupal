@@ -8,7 +8,7 @@ libraries:
   - imdb/global-css
 
 
-# regions:
-#   header: 'Header'
-#   content: 'Content'
-#   footer: 'Footer'
+regions:
+  header: 'Header'  
+  content: 'Content'
+  footer: 'Footer'

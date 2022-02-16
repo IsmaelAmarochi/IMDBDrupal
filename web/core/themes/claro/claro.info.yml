@@ -177,12 +177,15 @@ ckeditor_stylesheets:
   - css/classy/components/media-embed-error.css
 
 regions:
+  main_navigation: 'Main Navigation'
   header: 'Header'
-  pre_content: 'Pre-content'
-  breadcrumb: Breadcrumb
-  highlighted: Highlighted
-  help: Help
+  # pre_content: 'Pre-content'
+  # breadcrumb: Breadcrumb
+  # highlighted: Highlighted
+  # help: Help
+  
   content: Content
+  footer: 'Footer'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
   sidebar_first: 'First sidebar'
